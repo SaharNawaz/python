@@ -3,7 +3,7 @@ favorite=['Tikka', 'supreme','crown crust']
 for pizza in favorite:
     print(pizza)
 for pizza in favorite:
-    print(f"I like{pizza}pizza")
+    print(f"I like{pizza.title()}pizza")
 
 print('I love pizza')  
 
